@@ -1,0 +1,102 @@
+0000.034 (R) [notice] Buscando archivo (db), nombre del fichero: backup_2020-07-07-1955_Mypuppystore_14e35de1740d-db.gz
+0000.034 (R) [notice] Tamaño esperado del archivo: 2182.9 KB: Ok
+0000.040 (R) [notice] Descomprimiendo el respaldo... (backup_2020-07-07-1955_Mypuppystore_14e35de1740d-db.gz, 2.1 Mb)
+0000.052 (R) [notice] Restaurando la base de datos... (en sitios grandes podría tardar mucho tiempo - si obtiene errores de exceso de tiempo de ejecución de comandos (timeout), lo que puede pasar si su proveedor de alojamiento (hosting) tiene configurado su alojamiento con recursos limitados, entonces debe usar un método diferente como phpMyAdmin)
+0000.152 (R) [notice] Activando el modo de mantenimiento&#8230;
+0000.154 (R) [notice] Respaldo creado por: 1.16.26
+0000.155 (R) [notice] Copia de seguridad de: https://localhost/wordpress
+0000.172 (R) [notice] Inicio del sitio: http://localhost/wordpress
+0000.172 (R) [notice] URL del contenido: https://localhost/wordpress/wp-content
+0000.172 (R) [notice] URL de subidas: http://localhost/wordpress/wp-content/uploads
+0000.173 (R) [notice] Antiguo prefijo de la tabla: wp_
+0000.173 (R) [notice] Información del sitio: multisite = 1
+0000.175 (R) [notice] New table prefix: wp_
+0000.202 (R) [notice] Procesando table (InnoDB):  wp_options
+0001.046 (R) [notice] Procesando table (InnoDB):  wp_site
+0001.099 (R) [notice] Procesando table (InnoDB):  wp_blogs
+0001.172 (R) [notice] Procesando table (InnoDB):  wp_users
+0001.230 (R) [notice] Procesando table (InnoDB):  wp_usermeta
+0001.301 (R) [notice] Procesando table (InnoDB):  wp_actionscheduler_actions
+0001.370 (R) [notice] Procesando table (InnoDB):  wp_actionscheduler_claims
+0001.420 (R) [notice] Procesando table (InnoDB):  wp_actionscheduler_groups
+0001.479 (R) [notice] Procesando table (InnoDB):  wp_actionscheduler_logs
+0001.545 (R) [notice] Procesando table (InnoDB):  wp_blogmeta
+0001.606 (R) [notice] Procesando table (InnoDB):  wp_commentmeta
+0001.692 (R) [notice] Procesando table (InnoDB):  wp_comments
+0001.875 (R) [notice] Procesando table (InnoDB):  wp_links
+0001.938 (R) [notice] Procesando table (InnoDB):  wp_postmeta
+0002.007 (R) [notice] Procesando table (InnoDB):  wp_posts
+0002.077 (R) [notice] Procesando table (InnoDB):  wp_registration_log
+0002.105 (R) [notice] Database queries processed: 50 in 2.04 seconds
+0002.132 (R) [notice] Procesando table (InnoDB):  wp_signups
+0002.180 (R) [notice] Procesando table (InnoDB):  wp_sitemeta
+0002.239 (R) [notice] Procesando table (InnoDB):  wp_term_relationships
+0002.291 (R) [notice] Procesando table (InnoDB):  wp_term_taxonomy
+0002.367 (R) [notice] Procesando table (InnoDB):  wp_termmeta
+0002.440 (R) [notice] Procesando table (InnoDB):  wp_terms
+0002.487 (R) [notice] Procesando table (InnoDB):  wp_wc_category_lookup
+0002.545 (R) [notice] Procesando table (InnoDB):  wp_wc_product_meta_lookup
+0002.600 (R) [notice] Procesando table (InnoDB):  wp_wc_tax_rate_classes
+0002.639 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_order_itemmeta
+0002.678 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_payment_tokenmeta
+0002.724 (R) [notice] Procesando table (InnoDB):  wp_3_commentmeta
+0002.778 (R) [notice] Procesando table (InnoDB):  wp_3_comments
+0002.830 (R) [notice] Procesando table (InnoDB):  wp_3_links
+0002.889 (R) [notice] Procesando table (InnoDB):  wp_3_options
+0003.036 (R) [notice] Procesando table (InnoDB):  wp_3_postmeta
+0003.086 (R) [notice] Procesando table (InnoDB):  wp_3_posts
+0003.143 (R) [notice] Procesando table (InnoDB):  wp_3_term_relationships
+0003.188 (R) [notice] Database queries processed: 100 in 3.12 seconds
+0003.191 (R) [notice] Procesando table (InnoDB):  wp_3_term_taxonomy
+0003.239 (R) [notice] Procesando table (InnoDB):  wp_3_termmeta
+0003.308 (R) [notice] Procesando table (InnoDB):  wp_3_terms
+0003.364 (R) [notice] Procesando table (InnoDB):  wp_mailchimp_carts
+0003.405 (R) [notice] Procesando table (InnoDB):  wp_mailchimp_jobs
+0003.443 (R) [notice] Procesando table (InnoDB):  wp_wc_admin_note_actions
+0003.486 (R) [notice] Procesando table (InnoDB):  wp_wc_admin_notes
+0003.532 (R) [notice] Procesando table (InnoDB):  wp_wc_customer_lookup
+0003.572 (R) [notice] Procesando table (InnoDB):  wp_wc_download_log
+0003.617 (R) [notice] Procesando table (InnoDB):  wp_wc_order_coupon_lookup
+0003.655 (R) [notice] Procesando table (InnoDB):  wp_wc_order_product_lookup
+0003.696 (R) [notice] Procesando table (InnoDB):  wp_wc_order_stats
+0003.742 (R) [notice] Procesando table (InnoDB):  wp_wc_order_tax_lookup
+0003.780 (R) [notice] Procesando table (InnoDB):  wp_wc_webhooks
+0003.821 (R) [notice] Procesando table (InnoDB):  wp_wfblockediplog
+0003.864 (R) [notice] Procesando table (InnoDB):  wp_wfblocks7
+0003.913 (R) [notice] Procesando table (InnoDB):  wp_wfconfig
+0004.185 (R) [notice] Procesando table (InnoDB):  wp_wfcrawlers
+0004.209 (R) [notice] Procesando table (InnoDB):  wp_wffilechanges
+0004.235 (R) [notice] Procesando table (InnoDB):  wp_wffilemods
+0004.464 (R) [notice] Database queries processed: 150 in 4.40 seconds
+0004.478 (R) [notice] Procesando table (InnoDB):  wp_wfhits
+0004.528 (R) [notice] Procesando table (InnoDB):  wp_wfhoover
+0004.570 (R) [notice] Procesando table (InnoDB):  wp_wfissues
+0004.608 (R) [notice] Procesando table (InnoDB):  wp_wfknownfilelist
+0004.974 (R) [notice] Procesando table (InnoDB):  wp_wflivetraffichuman
+0005.002 (R) [notice] Procesando table (InnoDB):  wp_wflocs
+0005.044 (R) [notice] Procesando table (InnoDB):  wp_wflogins
+0005.080 (R) [notice] Procesando table (InnoDB):  wp_wfls_2fa_secrets
+0005.112 (R) [notice] Procesando table (InnoDB):  wp_wfls_settings
+0005.147 (R) [notice] Procesando table (InnoDB):  wp_wfnotifications
+0005.187 (R) [notice] Procesando table (InnoDB):  wp_wfpendingissues
+0005.225 (R) [notice] Procesando table (InnoDB):  wp_wfreversecache
+0005.257 (R) [notice] Procesando table (InnoDB):  wp_wfsnipcache
+0005.289 (R) [notice] Procesando table (InnoDB):  wp_wfstatus
+0005.331 (R) [notice] Procesando table (InnoDB):  wp_wftrafficrates
+0005.360 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_api_keys
+0005.389 (R) [notice] Database queries processed: 200 in 5.32 seconds
+0005.391 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_attribute_taxonomies
+0005.417 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_downloadable_product_permissions
+0005.468 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_log
+0005.496 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_order_items
+0005.530 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_payment_tokens
+0005.561 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_sessions
+0005.600 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_shipping_zone_locations
+0005.639 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_shipping_zone_methods
+0005.672 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_shipping_zones
+0005.704 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_tax_rate_locations
+0005.734 (R) [notice] Procesando table (InnoDB):  wp_woocommerce_tax_rates
+0007.447 (R) [notice] Desactivando el modo de mantenimiento&#8230;
+0007.448 (R) [notice] Finished: lines processed: 228 in 7.38 seconds
+0007.452 (R) [notice] Limpiando basura...
+0007.511 (R) [notice] Restore successful!

@@ -1,0 +1,120 @@
+0000.007 () Opened log file at time: Tue, 07 Jul 2020 19:58:25 +0000 on http://localhost/wordpress/
+0000.008 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.11 (apache2handler, Darwin Guillermos-MacBook-Air.local 18.2.0 Darwin Kernel Version 18.2.0: Fri Oct  5 19:41:49 PDT 2018; root:xnu-4903.221.2~2/RELEASE_X86_64 x86_64) MySQL: 8.0.18 WPLANG: es_ES Server: Apache/2.4.41 (Unix) OpenSSL/1.0.2p PHP/7.3.11 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 72.1M | 7M) multisite: Y (sub-folder) openssl: OpenSSL 1.0.2p  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.008 () Free space on disk containing Updraft's temporary directory: 14778 MB
+0000.007 () Opened log file at time: Tue, 07 Jul 2020 19:58:27 +0000 on http://localhost/wordpress/
+0000.008 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.3.11 (apache2handler, Darwin Guillermos-MacBook-Air.local 18.2.0 Darwin Kernel Version 18.2.0: Fri Oct  5 19:41:49 PDT 2018; root:xnu-4903.221.2~2/RELEASE_X86_64 x86_64) MySQL: 8.0.18 WPLANG: es_ES Server: Apache/2.4.41 (Unix) OpenSSL/1.0.2p PHP/7.3.11 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 71.1M | 7M) multisite: Y (sub-folder) openssl: OpenSSL 1.0.2p  14 Aug 2018 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.008 () Free space on disk containing Updraft's temporary directory: 14777 MB
+0000.025 () Ensuring WP_Filesystem is setup for a restore
+0000.025 () WP_Filesystem is setup and ready for a restore
+0000.034 () Restore job started. Entities to restore: db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_site","wp_blogs","wp_users","wp_usermeta","wp_actionscheduler_actions","wp_actionscheduler_claims","wp_actionscheduler_groups","wp_actionscheduler_logs","wp_blogmeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_registration_log","wp_signups","wp_sitemeta","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_wc_category_lookup","wp_wc_product_meta_lookup","wp_wc_tax_rate_classes","wp_woocommerce_order_itemmeta","wp_woocommerce_payment_tokenmeta","wp_3_commentmeta","wp_3_comments","wp_3_links","wp_3_options","wp_3_postmeta","wp_3_posts","wp_3_term_relationships","wp_3_term_taxonomy","wp_3_termmeta","wp_3_terms","wp_mailchimp_carts","wp_mailchimp_jobs","wp_wc_admin_note_actions","wp_wc_admin_notes","wp_wc_customer_lookup","wp_wc_download_log","wp_wc_order_coupon_lookup","wp_wc_order_product_lookup","wp_wc_order_stats","wp_wc_order_tax_lookup","wp_wc_webhooks","wp_wfblockediplog","wp_wfblocks7","wp_wfconfig","wp_wfcrawlers","wp_wffilechanges","wp_wffilemods","wp_wfhits","wp_wfhoover","wp_wfissues","wp_wfknownfilelist","wp_wflivetraffichuman","wp_wflocs","wp_wflogins","wp_wfls_2fa_secrets","wp_wfls_settings","wp_wfnotifications","wp_wfpendingissues","wp_wfreversecache","wp_wfsnipcache","wp_wfstatus","wp_wftrafficrates","wp_woocommerce_api_keys","wp_woocommerce_attribute_taxonomies","wp_woocommerce_downloadable_product_permissions","wp_woocommerce_log","wp_woocommerce_order_items","wp_woocommerce_payment_tokens","wp_woocommerce_sessions","wp_woocommerce_shipping_zone_locations","wp_woocommerce_shipping_zone_methods","wp_woocommerce_shipping_zones","wp_woocommerce_tax_rate_locations","wp_woocommerce_tax_rates"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.040 () Entity: db
+0000.040 () restore_backup(backup_file=backup_2020-07-07-1955_Mypuppystore_14e35de1740d-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.040 () Descomprimiendo el respaldo... (backup_2020-07-07-1955_Mypuppystore_14e35de1740d-db.gz, 2.1 Mb)
+0000.051 () Database successfully unpacked
+0000.052 () Restaurando la base de datos... (en sitios grandes podría tardar mucho tiempo - si obtiene errores de exceso de tiempo de ejecución de comandos (timeout), lo que puede pasar si su proveedor de alojamiento (hosting) tiene configurado su alojamiento con recursos limitados, entonces debe usar un método diferente como phpMyAdmin)
+0000.052 () Using direct MySQL access; value of use_mysqli is: 1
+0000.058 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.152 () Max packet size: 32 MB
+0000.152 () Entering maintenance mode
+0000.152 () Activando el modo de mantenimiento&#8230;
+0000.155 () Backup created by: 1.16.26
+0000.155 () Backup of: https://localhost/wordpress
+0000.172 () Site home: http://localhost/wordpress
+0000.172 () Content URL: https://localhost/wordpress/wp-content
+0000.173 () Uploads URL: http://localhost/wordpress/wp-content/uploads
+0000.173 () Old table prefix: wp_
+0000.173 () Site information: multisite=1
+0000.175 () New table prefix: wp_
+0000.202 () Processing table (InnoDB): wp_options
+0000.406 () Restoring prior UD configuration (table: wp_options; keys: 97)
+0001.046 () Processing table (InnoDB): wp_site
+0001.098 () Processing table (InnoDB): wp_blogs
+0001.172 () Processing table (InnoDB): wp_users
+0001.230 () Processing table (InnoDB): wp_usermeta
+0001.301 () Processing table (InnoDB): wp_actionscheduler_actions
+0001.370 () Processing table (InnoDB): wp_actionscheduler_claims
+0001.420 () Processing table (InnoDB): wp_actionscheduler_groups
+0001.479 () Processing table (InnoDB): wp_actionscheduler_logs
+0001.545 () Processing table (InnoDB): wp_blogmeta
+0001.606 () Processing table (InnoDB): wp_commentmeta
+0001.692 () Processing table (InnoDB): wp_comments
+0001.875 () Processing table (InnoDB): wp_links
+0001.938 () Processing table (InnoDB): wp_postmeta
+0002.007 () Processing table (InnoDB): wp_posts
+0002.077 () Processing table (InnoDB): wp_registration_log
+0002.105 () Database queries processed: 50 in 2.04 seconds
+0002.132 () Processing table (InnoDB): wp_signups
+0002.180 () Processing table (InnoDB): wp_sitemeta
+0002.239 () Processing table (InnoDB): wp_term_relationships
+0002.291 () Processing table (InnoDB): wp_term_taxonomy
+0002.367 () Processing table (InnoDB): wp_termmeta
+0002.440 () Processing table (InnoDB): wp_terms
+0002.487 () Processing table (InnoDB): wp_wc_category_lookup
+0002.545 () Processing table (InnoDB): wp_wc_product_meta_lookup
+0002.600 () Processing table (InnoDB): wp_wc_tax_rate_classes
+0002.639 () Processing table (InnoDB): wp_woocommerce_order_itemmeta
+0002.678 () Processing table (InnoDB): wp_woocommerce_payment_tokenmeta
+0002.724 () Processing table (InnoDB): wp_3_commentmeta
+0002.778 () Processing table (InnoDB): wp_3_comments
+0002.830 () Processing table (InnoDB): wp_3_links
+0002.889 () Processing table (InnoDB): wp_3_options
+0003.036 () Processing table (InnoDB): wp_3_postmeta
+0003.086 () Processing table (InnoDB): wp_3_posts
+0003.143 () Processing table (InnoDB): wp_3_term_relationships
+0003.188 () Database queries processed: 100 in 3.12 seconds
+0003.191 () Processing table (InnoDB): wp_3_term_taxonomy
+0003.239 () Processing table (InnoDB): wp_3_termmeta
+0003.308 () Processing table (InnoDB): wp_3_terms
+0003.364 () Processing table (InnoDB): wp_mailchimp_carts
+0003.405 () Processing table (InnoDB): wp_mailchimp_jobs
+0003.443 () Processing table (InnoDB): wp_wc_admin_note_actions
+0003.486 () Processing table (InnoDB): wp_wc_admin_notes
+0003.532 () Processing table (InnoDB): wp_wc_customer_lookup
+0003.572 () Processing table (InnoDB): wp_wc_download_log
+0003.616 () Processing table (InnoDB): wp_wc_order_coupon_lookup
+0003.655 () Processing table (InnoDB): wp_wc_order_product_lookup
+0003.695 () Processing table (InnoDB): wp_wc_order_stats
+0003.742 () Processing table (InnoDB): wp_wc_order_tax_lookup
+0003.780 () Processing table (InnoDB): wp_wc_webhooks
+0003.821 () Processing table (InnoDB): wp_wfblockediplog
+0003.864 () Processing table (InnoDB): wp_wfblocks7
+0003.913 () Processing table (InnoDB): wp_wfconfig
+0004.185 () Processing table (InnoDB): wp_wfcrawlers
+0004.209 () Processing table (InnoDB): wp_wffilechanges
+0004.235 () Processing table (InnoDB): wp_wffilemods
+0004.463 () Database queries processed: 150 in 4.40 seconds
+0004.478 () Processing table (InnoDB): wp_wfhits
+0004.528 () Processing table (InnoDB): wp_wfhoover
+0004.570 () Processing table (InnoDB): wp_wfissues
+0004.608 () Processing table (InnoDB): wp_wfknownfilelist
+0004.974 () Processing table (InnoDB): wp_wflivetraffichuman
+0005.002 () Processing table (InnoDB): wp_wflocs
+0005.044 () Processing table (InnoDB): wp_wflogins
+0005.080 () Processing table (InnoDB): wp_wfls_2fa_secrets
+0005.112 () Processing table (InnoDB): wp_wfls_settings
+0005.147 () Processing table (InnoDB): wp_wfnotifications
+0005.187 () Processing table (InnoDB): wp_wfpendingissues
+0005.225 () Processing table (InnoDB): wp_wfreversecache
+0005.257 () Processing table (InnoDB): wp_wfsnipcache
+0005.289 () Processing table (InnoDB): wp_wfstatus
+0005.331 () Processing table (InnoDB): wp_wftrafficrates
+0005.360 () Processing table (InnoDB): wp_woocommerce_api_keys
+0005.389 () Database queries processed: 200 in 5.32 seconds
+0005.391 () Processing table (InnoDB): wp_woocommerce_attribute_taxonomies
+0005.417 () Processing table (InnoDB): wp_woocommerce_downloadable_product_permissions
+0005.468 () Processing table (InnoDB): wp_woocommerce_log
+0005.496 () Processing table (InnoDB): wp_woocommerce_order_items
+0005.530 () Processing table (InnoDB): wp_woocommerce_payment_tokens
+0005.561 () Processing table (InnoDB): wp_woocommerce_sessions
+0005.600 () Processing table (InnoDB): wp_woocommerce_shipping_zone_locations
+0005.639 () Processing table (InnoDB): wp_woocommerce_shipping_zone_methods
+0005.672 () Processing table (InnoDB): wp_woocommerce_shipping_zones
+0005.704 () Processing table (InnoDB): wp_woocommerce_tax_rate_locations
+0005.734 () Processing table (InnoDB): wp_woocommerce_tax_rates
+0005.761 () UpdraftPlus Vault: this site has not been connected - check your settings
+0007.447 () Unlocking database and leaving maintenance mode
+0007.447 () Desactivando el modo de mantenimiento&#8230;
+0007.448 () Finished: lines processed: 228 in 7.38 seconds
+0007.452 () Limpiando basura...
+0007.510 () Restore successful!
+0007.511 () Restore successful
